@@ -1,4 +1,4 @@
-import sequelize from "../connections/db";
+import sequelize from "../config/db";
 import { DataTypes } from "sequelize";
 
 const UserProfile = sequelize.define(
